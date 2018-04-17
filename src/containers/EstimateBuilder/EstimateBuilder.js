@@ -64,6 +64,7 @@ class EstimateBuilder extends Component {
     const { data } = this.state
     return (
       <div>
+        <h4>Click on properties to include or remove them from the calculation. Properties in green are included</h4>
         <PropertyList>
           {data.map((property, index) => (
             <Property
